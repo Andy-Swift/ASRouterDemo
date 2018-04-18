@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5263E5D2084ECD300E29318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5263E5C2084ECD300E29318 /* AppDelegate.swift */; };
+		F5263E5F2084ECD300E29318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5263E5E2084ECD300E29318 /* ViewController.swift */; };
+		F5263E622084ECD300E29318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5263E602084ECD300E29318 /* Main.storyboard */; };
+		F5263E642084ECD300E29318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5263E632084ECD300E29318 /* Assets.xcassets */; };
+		F5263E672084ECD300E29318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5263E652084ECD300E29318 /* LaunchScreen.storyboard */; };
+		F5263E722084ECD400E29318 /* ASRouterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5263E712084ECD400E29318 /* ASRouterDemoTests.swift */; };
+		F5263E7D2084ECD400E29318 /* ASRouterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5263E7C2084ECD400E29318 /* ASRouterDemoUITests.swift */; };
+		F5263E8E20850F1E00E29318 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5263E8D20850F1E00E29318 /* SecondVC.swift */; };
+		F5DCFB3220860AB600E50A0B /* ASRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DCFB3120860AB600E50A0B /* ASRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5263E6E2084ECD400E29318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5263E512084ECD300E29318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5263E582084ECD300E29318;
+			remoteInfo = ASRouterDemo;
+		};
+		F5263E792084ECD400E29318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5263E512084ECD300E29318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5263E582084ECD300E29318;
+			remoteInfo = ASRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5263E592084ECD300E29318 /* ASRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5263E5C2084ECD300E29318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5263E5E2084ECD300E29318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5263E612084ECD300E29318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5263E632084ECD300E29318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5263E662084ECD300E29318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5263E682084ECD300E29318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5263E6D2084ECD400E29318 /* ASRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5263E712084ECD400E29318 /* ASRouterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRouterDemoTests.swift; sourceTree = "<group>"; };
+		F5263E732084ECD400E29318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5263E782084ECD400E29318 /* ASRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5263E7C2084ECD400E29318 /* ASRouterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRouterDemoUITests.swift; sourceTree = "<group>"; };
+		F5263E7E2084ECD400E29318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5263E8D20850F1E00E29318 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		F5DCFB3120860AB600E50A0B /* ASRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5263E562084ECD300E29318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E6A2084ECD400E29318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E752084ECD400E29318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5263E502084ECD300E29318 = {
+			isa = PBXGroup;
+			children = (
+				F5263E5B2084ECD300E29318 /* ASRouterDemo */,
+				F5263E702084ECD400E29318 /* ASRouterDemoTests */,
+				F5263E7B2084ECD400E29318 /* ASRouterDemoUITests */,
+				F5263E5A2084ECD300E29318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5263E5A2084ECD300E29318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5263E592084ECD300E29318 /* ASRouterDemo.app */,
+				F5263E6D2084ECD400E29318 /* ASRouterDemoTests.xctest */,
+				F5263E782084ECD400E29318 /* ASRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5263E5B2084ECD300E29318 /* ASRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F5263E8A2084ED0100E29318 /* ASRouter */,
+				F5263E5C2084ECD300E29318 /* AppDelegate.swift */,
+				F5263E5E2084ECD300E29318 /* ViewController.swift */,
+				F5263E8D20850F1E00E29318 /* SecondVC.swift */,
+				F5263E602084ECD300E29318 /* Main.storyboard */,
+				F5263E632084ECD300E29318 /* Assets.xcassets */,
+				F5263E652084ECD300E29318 /* LaunchScreen.storyboard */,
+				F5263E682084ECD300E29318 /* Info.plist */,
+			);
+			path = ASRouterDemo;
+			sourceTree = "<group>";
+		};
+		F5263E702084ECD400E29318 /* ASRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5263E712084ECD400E29318 /* ASRouterDemoTests.swift */,
+				F5263E732084ECD400E29318 /* Info.plist */,
+			);
+			path = ASRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		F5263E7B2084ECD400E29318 /* ASRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5263E7C2084ECD400E29318 /* ASRouterDemoUITests.swift */,
+				F5263E7E2084ECD400E29318 /* Info.plist */,
+			);
+			path = ASRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		F5263E8A2084ED0100E29318 /* ASRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F5DCFB3120860AB600E50A0B /* ASRouter.swift */,
+			);
+			path = ASRouter;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5263E582084ECD300E29318 /* ASRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5263E812084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemo" */;
+			buildPhases = (
+				F5263E552084ECD300E29318 /* Sources */,
+				F5263E562084ECD300E29318 /* Frameworks */,
+				F5263E572084ECD300E29318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASRouterDemo;
+			productName = ASRouterDemo;
+			productReference = F5263E592084ECD300E29318 /* ASRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5263E6C2084ECD400E29318 /* ASRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5263E842084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemoTests" */;
+			buildPhases = (
+				F5263E692084ECD400E29318 /* Sources */,
+				F5263E6A2084ECD400E29318 /* Frameworks */,
+				F5263E6B2084ECD400E29318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5263E6F2084ECD400E29318 /* PBXTargetDependency */,
+			);
+			name = ASRouterDemoTests;
+			productName = ASRouterDemoTests;
+			productReference = F5263E6D2084ECD400E29318 /* ASRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5263E772084ECD400E29318 /* ASRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5263E872084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemoUITests" */;
+			buildPhases = (
+				F5263E742084ECD400E29318 /* Sources */,
+				F5263E752084ECD400E29318 /* Frameworks */,
+				F5263E762084ECD400E29318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5263E7A2084ECD400E29318 /* PBXTargetDependency */,
+			);
+			name = ASRouterDemoUITests;
+			productName = ASRouterDemoUITests;
+			productReference = F5263E782084ECD400E29318 /* ASRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5263E512084ECD300E29318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Think;
+				TargetAttributes = {
+					F5263E582084ECD300E29318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5263E6C2084ECD400E29318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5263E582084ECD300E29318;
+					};
+					F5263E772084ECD400E29318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5263E582084ECD300E29318;
+					};
+				};
+			};
+			buildConfigurationList = F5263E542084ECD300E29318 /* Build configuration list for PBXProject "ASRouterDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5263E502084ECD300E29318;
+			productRefGroup = F5263E5A2084ECD300E29318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5263E582084ECD300E29318 /* ASRouterDemo */,
+				F5263E6C2084ECD400E29318 /* ASRouterDemoTests */,
+				F5263E772084ECD400E29318 /* ASRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5263E572084ECD300E29318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5263E672084ECD300E29318 /* LaunchScreen.storyboard in Resources */,
+				F5263E642084ECD300E29318 /* Assets.xcassets in Resources */,
+				F5263E622084ECD300E29318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E6B2084ECD400E29318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E762084ECD400E29318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5263E552084ECD300E29318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5263E5F2084ECD300E29318 /* ViewController.swift in Sources */,
+				F5263E8E20850F1E00E29318 /* SecondVC.swift in Sources */,
+				F5DCFB3220860AB600E50A0B /* ASRouter.swift in Sources */,
+				F5263E5D2084ECD300E29318 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E692084ECD400E29318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5263E722084ECD400E29318 /* ASRouterDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5263E742084ECD400E29318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5263E7D2084ECD400E29318 /* ASRouterDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5263E6F2084ECD400E29318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5263E582084ECD300E29318 /* ASRouterDemo */;
+			targetProxy = F5263E6E2084ECD400E29318 /* PBXContainerItemProxy */;
+		};
+		F5263E7A2084ECD400E29318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5263E582084ECD300E29318 /* ASRouterDemo */;
+			targetProxy = F5263E792084ECD400E29318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5263E602084ECD300E29318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5263E612084ECD300E29318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5263E652084ECD300E29318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5263E662084ECD300E29318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5263E7F2084ECD400E29318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5263E802084ECD400E29318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5263E822084ECD400E29318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5263E832084ECD400E29318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5263E852084ECD400E29318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASRouterDemo.app/ASRouterDemo";
+			};
+			name = Debug;
+		};
+		F5263E862084ECD400E29318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASRouterDemo.app/ASRouterDemo";
+			};
+			name = Release;
+		};
+		F5263E882084ECD400E29318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASRouterDemo;
+			};
+			name = Debug;
+		};
+		F5263E892084ECD400E29318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ASRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilibili.www.ASRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5263E542084ECD300E29318 /* Build configuration list for PBXProject "ASRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5263E7F2084ECD400E29318 /* Debug */,
+				F5263E802084ECD400E29318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5263E812084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5263E822084ECD400E29318 /* Debug */,
+				F5263E832084ECD400E29318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5263E842084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5263E852084ECD400E29318 /* Debug */,
+				F5263E862084ECD400E29318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5263E872084ECD400E29318 /* Build configuration list for PBXNativeTarget "ASRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5263E882084ECD400E29318 /* Debug */,
+				F5263E892084ECD400E29318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5263E512084ECD300E29318 /* Project object */;
+}
