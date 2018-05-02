@@ -68,7 +68,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         print("Index: \(indexPath.row) Name: \(title)")
         switch indexPath.row {
         case 0:
-            let vc = ASRouter.shared.matchController("hhrouter2://user/2/")
+            let vc = ASRouter.shared.matchController("hhrouter2://user/2?name=name&age=age")
             if vc != nil {
                 self.navigationController?.pushViewController(vc!, animated: true)
             }
